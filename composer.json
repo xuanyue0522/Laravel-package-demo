@@ -1,0 +1,19 @@
+{
+    "name": "xuanyue/hasher",
+    "description": "md5 package demo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xuanyue",
+            "email": "cxs_develop@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Xuanyue\\Hasher\\" : "src/"
+        }
+    }
+}
