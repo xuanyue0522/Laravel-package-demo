@@ -8,10 +8,11 @@
 namespace Xuanyue\Hasher;
 
 
-class CheckPassword extends CheckPasswordBase
-{
-    public function check()
-    {
 
+class CheckPassword
+{
+    public function check($password = '', $yanzhi = '')
+    {
+        return $yanzhi ? md5($password.$yanzhi) : md5($password);
     }
 }
